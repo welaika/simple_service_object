@@ -1,4 +1,6 @@
 # coding: utf-8
+# frozen_string_literal: true
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'simple_service_object/version'
@@ -9,8 +11,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Fabrizio Monti"]
   spec.email         = ["fabrizio.monti@welaika.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = "Simple Service Object Implementation."
+  spec.description   = <<-TEXT
+    It implements the command pattern in one file. Feel free to copy and paste
+    in your own project if you want to edit it as you like.
+  TEXT
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -23,7 +28,7 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
-  spec.files         = `git ls-files -z`.split("\x0").reject do |f|
+  spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = "exe"
@@ -33,4 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rubocop", "~> 0.45"
 end

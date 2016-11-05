@@ -1,0 +1,21 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+
+  Exclude:
+    - 'bin/*'
+
+Metrics/LineLength:
+  Max: 100
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - '*.gemspec'
+    - '**/*_spec.rb'
