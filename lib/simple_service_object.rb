@@ -3,6 +3,8 @@
 
 require "simple_service_object/version"
 require "simple_service_object/base"
+require "simple_service_object/result"
+require "simple_service_object/errors"
 
 module SimpleServiceObject
 end
