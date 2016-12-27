@@ -8,11 +8,9 @@ describe SimpleServiceObject::Base do
     context "arguments handover" do
       before do
         stub_const("MyService", Class.new(SimpleServiceObject::Base)).class_eval do
-          def initialize(arhhgs)
-          end
+          def initialize(args); end
 
-          def call
-          end
+          def call; end
         end
       end
 
