@@ -112,6 +112,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 Bug reports and pull requests are welcome on GitHub at https://github.com/welaika/simple_service_object. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
+## Author
+
+made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
+
 ## License
+
+Copyright © 2017 [weLaika](http://dev.welaika.com)
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
