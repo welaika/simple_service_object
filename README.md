@@ -118,6 +118,6 @@ made with ❤️ and ☕️ by [weLaika](http://dev.welaika.com)
 
 ## License
 
-Copyright © 2017 [weLaika](http://dev.welaika.com)
+Copyright © 2016-2018 [weLaika](http://dev.welaika.com)
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
